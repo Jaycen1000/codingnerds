@@ -1,0 +1,33 @@
+//BASIC CALCULATOR 
+import java.util.*;
+
+public class Program
+{
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		Boolean quit = false;
+		int finalAnswer = 0;
+		int i = 0;
+		ArrayList<Integer> calc = new ArrayList<Integer>();
+
+		System.out.println("Add numbers to the equasion and type noting when done");
+
+while(!quit)
+{
+    if(scan.hasNextInt)
+    {
+    calc.add(scan.nextInt);
+    } else
+    {
+        for(int num : calc)
+        {
+            finalAnswer = finalAnswer + num;
+        }
+        quit = true;
+    }
+    
+}
+
+
+	}
+}
